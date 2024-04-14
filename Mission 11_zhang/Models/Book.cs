@@ -8,7 +8,7 @@ namespace Mission_11_zhang.Models
 		public int BookID { get; set; }
 
 		[Required]
-		public string Title { get; set; }
+		public string Title { get; set; } = string.Empty;
 
 		public string? Author { get; set; }
 		public string? Publisher { get; set; }
